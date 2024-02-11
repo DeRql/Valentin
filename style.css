@@ -401,3 +401,9 @@ body {
     opacity: 0.5;
   }
 }
+@media (max-width: 767px) {
+      div {
+        width: 100%; /* Hacer que todos los divs ocupen el ancho completo */
+        height: auto; /* Permitir que la altura se ajuste automáticamente */
+      }
+}
