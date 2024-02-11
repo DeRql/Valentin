@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>heart letter by alexx_deev</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<div class="envlope-wrapper">
+    <div id="envelope" class="close">
+        
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <!--Aqui -->
+        <div class="letter">
+            <div class="text">
+                ¿Quieres</br> ser mi</br> San Valentín?
+            </div>
+            <div class="chitosa">
+                R</br>
+            </div>
+            <div class="corazon"></div>
+            <div class="heartss">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+                <div class="four"></div>
+                <div class="five"></div>
+            </div>
+        </div>
+        <!--Aqui -->
+        <div class="heartsT">
+            <div class="heartT a1"></div>
+            <div class="heartT a2"></div>
+            <div class="heartT a3"></div>
+        </div>
+        <!--Aqui -->
+    </div>
+</div>
+<!---->
+
+
+
+<div class="reset">
+    <audio id="miAudio" src="brunito.mp3"></audio>
+    <button id="open">Abrir</button>
+    <button id="reset">Cerrar</button>
+    <script>
+        // Obtén el elemento de audio
+        var miAudio = document.getElementById('miAudio');
+      
+        // Obtén los botones
+        var openButton = document.getElementById('open');
+        var resetButton = document.getElementById('reset');
+      
+        // Asocia eventos de clic a los botones
+        openButton.addEventListener('click', reproducirAudio);
+        resetButton.addEventListener('click', pausarAudio);
+      
+        // Función para reproducir el audio
+        function reproducirAudio() {
+          miAudio.play();
+        }
+      
+        // Función para pausar el audio
+        function pausarAudio() {
+          miAudio.pause();
+        }
+      </script>
+</div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
